@@ -27,12 +27,17 @@ var data = [
       {
         perform: "commit",
         branch: "b3",
-        detail: 'Substitute right hand side of definition $\\alpha S[f(t, \\epsilon)] = \\beta$, referenced as $(D4)$ equation to $(T1.2)$, $$\\beta = \\alpha \\int_{t1}^{t2} L[f(t)] dt \\tag{T1.3}$$'
+        detail: 'Recall the definition $\\alpha S[f(t, \\epsilon)] = \\beta$, referenced as $(D4)$ equation to $(T1.2)$,'
       },
       {
         perform: "merge",
         branch: "b3",
         to: "b2",
+        detail: 'Substitute right hand side of definition $(D4)$ equation to $(T1.2)$, $$\\beta = \\alpha \\int_{t1}^{t2} L[f(t)] dt \\tag{T1.3}$$'
+      },
+      {
+        perform: "commit",
+        branch: "b2",
         detail: "We divide both sides by $\\alpha$, $$\\frac{\\beta}{\\alpha} = \\int_{t1}^{t2} L[f(t)] dt \\tag{T1.4}$$"
       },
       {
