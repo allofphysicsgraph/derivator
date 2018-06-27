@@ -74,5 +74,5 @@ var data = [
     content: "Given function $f$ that is continuous on the interval $[a, b]$ then following statements are true, $$\\int_a^x f(t) dx = F(x) \\tag{T3}$$ and, $$\\frac{d}{dx} F(x) = f(x) \\tag{T4}$$"
   }
 ];
-var graphstats = {"legend":true,"flat":true,"no_ansi":false,"authors":[{"value":20,"label":"marekyggdrasil"},{"value":1,"label":"zequequiel"}]}
-var renderstats = {"legend":true,"flat":true,"no_ansi":false,"authors":[{"value":20,"label":"marekyggdrasil"},{"value":1,"label":"zequequiel"}]}
+var graphstats = {"legend":true,"flat":true,"no_ansi":false,"authors":[{"value":20,"label":"marekyggdrasil"},{"value":1,"label":"zequequiel"}]};
+var renderstats = {"legend":true,"flat":true,"no_ansi":false,"authors":[{"value":5,"label":"marekyggdrasil"}]};
